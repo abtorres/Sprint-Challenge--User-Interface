@@ -204,6 +204,12 @@ footer nav a {
     padding: 0px 30px;
 }
 
+.nav-sec .nav-bar .nav-item:hover {
+    color: crimson;
+    animation-name: nav-anim;
+    animation-duration: 1s;
+}
+
 .jumbo-jpg {
     padding: 10px 0px 20px 0px;
 }
@@ -239,3 +245,14 @@ footer nav a {
 .bfooter {
     padding: 0px 20px 30px 20px;
 }
+
+
+/* keyframe animations */
+@keyframes nav-anim {
+    from {color: grey;}
+    to {color: crimson;}
+}
+
+
+
+
