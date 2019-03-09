@@ -200,3 +200,34 @@ footer nav a {
 .jumbo-jpg {
     padding: 10px 0px 20px 0px;
 }
+
+/* about css */
+
+.about-images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 0px;
+}
+
+.about-images div {
+    width: 370px;
+    padding: 20px 0px;
+    border-bottom: 1px dashed black;
+}
+
+.about-images div img {
+    padding-bottom: 10px;
+}
+
+.about-images div p {
+    padding-bottom: 10px;
+}
+#about {
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px
+}
+
+.container p {
+    padding-bottom: 20px;
+}
