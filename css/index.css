@@ -144,3 +144,25 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* my css */
+.nav-sec {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.nav-sec .nav-bar {
+    display: flex;
+    align-items: center;
+}
+
+.nav-sec .nav-bar .nav-item {
+    text-decoration: none;
+    color: grey;
+    padding: 0px 30px;
+}
+
+.jumbo-jpg {
+    padding: 10px 0px 20px 0px;
+}
