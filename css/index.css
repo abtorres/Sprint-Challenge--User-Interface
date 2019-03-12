@@ -112,6 +112,47 @@ p {
     justify-content: center;
 }
 
+
+/* my box color css */
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +185,74 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* my css */
+.nav-sec {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.nav-sec .nav-bar {
+    display: flex;
+    align-items: center;
+}
+
+.nav-sec .nav-bar .nav-item {
+    text-decoration: none;
+    color: grey;
+    padding: 0px 30px;
+}
+
+.nav-sec .nav-bar .nav-item:hover {
+    color: crimson;
+    animation-name: nav-anim;
+    animation-duration: 1s;
+}
+
+.jumbo-jpg {
+    padding: 10px 0px 20px 0px;
+}
+
+/* about css */
+
+.about-images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 20px;
+}
+
+.about-images div {
+    width: 370px;
+    padding: 20px 0px;
+    border-bottom: 1px dashed black;
+}
+
+.about-images div img {
+    padding-bottom: 10px;
+}
+
+.about-images div p {
+    padding-bottom: 10px;
+}
+
+#about {
+    border-bottom: 1px dashed black;
+    padding: 20px
+}
+
+.bfooter {
+    padding: 0px 20px 30px 20px;
+}
+
+
+/* keyframe animations */
+@keyframes nav-anim {
+    from {color: grey;}
+    to {color: crimson;}
+}
+
+
+
+
